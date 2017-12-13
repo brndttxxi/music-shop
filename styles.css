@@ -1,0 +1,213 @@
+
+html,
+button,
+input,
+select,
+textarea {
+  color: #444;
+}
+::-moz-selection {
+  background: #ffcc44;
+  color: White;
+  text-shadow: none;
+}
+::selection {
+  background: #ffcc44;
+  color: White;
+  text-shadow: none;
+}
+body {
+  font: 1em/1.4 'Verdana', Helvetica, Arial, Tahoma, Serif;
+}
+h1,
+h2 {
+  font-family: 'Verdana', 'Century Gothic', Tahoma, Serif;
+  font-weight: bold;
+}
+h3{
+  font-family: 'Verdana', 'Century Gothic', Tahoma, Serif;
+  color: #000066;
+}
+h3{
+  font-family: 'Verdana', 'Century Gothic', Tahoma, Serif;
+  color: #000066;
+}
+h1 {
+  font-size: 2.5em;
+}
+h2 {
+  font-size: 2em;
+  line-height: 1em;
+  color: #000066;
+}
+h2.orphan {
+  margin: 0 0 20px;
+}
+h3 {
+  font-size: 1.6em;
+  margin: 0 0 10px;
+}
+ul,
+ol {
+  margin: 1em 0;
+  padding: 0 0 0 30px;
+}
+dd {
+  margin: 0 0 0 40px;
+}
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #dda100;
+  text-decoration: none;
+}
+a:focus,
+a:hover,
+a:active {
+  outline: 0 none;
+  color: #000066;
+}
+strong {
+  color: #000 !important;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1170px;
+}
+span.icon {
+  text-transform: none !important;
+}
+header {
+  background: color:#ffcc44; transparent;
+  padding: 15px 0 0;
+}
+
+nav {
+  float: right;
+  margin: 15px 0 0;
+  clear: both;
+}
+ul[role=navigation] {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font: 0.9em/1.67em 'Verdana', Helvetica, Arial, Tahoma, Serif;
+  text-transform: uppercase;
+}
+ul[role=navigation] li {
+  list-style: none;
+  float: left;
+  margin: 0 0 0 10px;
+}
+ul[role=navigation] li a {
+  background: #000066;
+  border: 1px solid #2495b4;
+  border-bottom: 0;
+  -moz-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.3) inset;
+  -webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.3) inset;
+  box-shadow: 0 1px 1px rgba(255, 255, 255, 0.3) inset;
+  -moz-border-radius: 3px 3px 0 0;
+  -webkit-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+  color: #dfe9f2;
+  display: block;
+  padding: 7px 20px 5px;
+}
+ul[role=navigation] li a:hover,
+ul[role=navigation] li a:focus,
+ul[role=navigation] li a:active,
+ul[role=navigation] li a.activePage {
+  border-color: #000066;
+  background: url(leather-pattern.png);
+  color: White;
+  -moz-box-shadow: rgba(255, 255, 255, 0.8) 0 1px 0;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.8) 0 1px 0;
+  box-shadow: rgba(255, 255, 255, 0.8) 0 1px 0;
+}
+ul[role=navigation] li a .icon {
+  padding-right: 10px;
+  font-size: 17px;
+}
+section[role=banner] {
+  background: url(light-pattern.png);
+  border-bottom: 1px solid #dfe9f2;
+}
+section[role=banner] > header {
+  background: url(leather-pattern.png);
+  -moz-box-shadow: inset rgba(0, 0, 0, 0.1) 0 10px 10px, rgba(255, 255, 255, 0.7) 0 10px 10px;
+  -webkit-box-shadow: inset rgba(0, 0, 0, 0.1) 0 10px 10px, rgba(255, 255, 255, 0.7) 0 10px 10px;
+  box-shadow: inset rgba(0, 0, 0, 0.1) 0 10px 10px, rgba(255, 255, 255, 0.7) 0 10px 10px;
+  border-top: 2px dotted #5e5e5e;
+  border-bottom: 4px dotted #5e5e5e;
+  margin: 0 0 30px;
+  padding: 20px 0;
+}
+section[role=banner] > header > h1,
+section[role=banner] > header > p {
+  margin: 0 auto;
+  width: 1170px;
+  color: #ffcc44;
+  font: bold 30px 'Verdana', Helvetica, Arial, Tahoma, Serif;
+  text-align: center;
+  text-shadow: #000 0 1px 0;
+}
+section[role=banner] > header > p {
+  font-size: 20px;
+  font-weight: normal;
+}
+section[role=banner] article[role=main] {
+  margin: 0 auto;
+  width: 1170px;
+  padding: 0 0 30px;
+}
+section[role=banner] article[role=main] .post {
+  float: left;
+  width: 55%;
+  color: #222;
+}
+section[role=banner] article[role=main] .post h2 {
+  font-size: 3em;
+  line-height: 1;
+  margin: 0 0 10px;
+}
+section[role=banner] article[role=main] aside {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  float: right;
+  overflow: hidden;
+  width: 40%;
+  position: relative;
+  border: 3px solid rgba(0, 0, 0, 0.03);
+  padding: 2px;
+}
+section[role=banner] article[role=main] aside:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: rgba(255, 255, 255, 0.15);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(255, 255, 255, 0.15)), color-stop(50%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(255, 255, 255, 0)));
+  background: -moz-linear-gradient(center top, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 100%);
+  -moz-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.8), inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 -6px 0 rgba(0, 0, 0, 0.3), inset 0 -7px 0 rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.8), inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 -6px 0 rgba(0, 0, 0, 0.3), inset 0 -7px 0 rgba(255, 255, 255, 0.2);
+  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.8), inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 -6px 0 rgba(0, 0, 0, 0.3), inset 0 -7px 0 rgba(255, 255, 255, 0.2);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+section[role=banner] article[role=main] aside img {
+  width: 100%;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+
